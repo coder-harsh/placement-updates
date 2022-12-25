@@ -1,3 +1,38 @@
 body::-webkit-scrollbar {
   display: none;
 }
+#jobs-tab h3 {
+  text-align: center;
+  font-size: 2em;
+}
+#jobs-tab #table-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+#jobs-tab #table-container table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 25%;
+  background-color: antiquewhite;
+  margin: 12px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+}
+#jobs-tab #table-container table tbody tr:hover {
+  background-color: aquamarine;
+}
+#jobs-tab #table-container table tbody tr td a {
+  color: blue;
+  font-size: 2 em;
+}
+@media (max-width: 558px) {
+  #table-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #table-container table {
+    width: 90vw;
+    padding: 70px;
+  }
+}
