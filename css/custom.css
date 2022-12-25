@@ -2,10 +2,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 .hero-area2 .contents h2 {
-  line-height: 43px;
+  line-height: 61px;
 }
 .hero-area2 .overlay-light {
-  height: 86%;
+  height: 100%;
 }
 #jobs-tab h3 {
   text-align: center;
@@ -31,6 +31,9 @@ body::-webkit-scrollbar {
 #jobs-tab #table-container table tbody tr td a {
   color: blue;
   font-size: 2 em;
+}
+#jobs-tab #table-container table tbody tr td {
+  padding: auto;
 }
 @media (max-width: 558px) {
   #table-container {
