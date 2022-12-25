@@ -1,6 +1,12 @@
 body::-webkit-scrollbar {
   display: none;
 }
+.hero-area2 .contents h2 {
+  line-height: 43px;
+}
+.hero-area2 .overlay-light {
+  height: 86%;
+}
 #jobs-tab h3 {
   text-align: center;
   font-size: 2em;
