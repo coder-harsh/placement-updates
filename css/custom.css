@@ -25,6 +25,12 @@ body::-webkit-scrollbar {
   border-radius: 12px;
   box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
 }
+#jobs-tab #table-container table:hover {
+  /* border: 2px solid rgb(0, 0, 0); */
+  transition: 1s all ease-in;
+  background-color: rgba(250, 235, 215, 0.892);
+  box-shadow: 5px 5px 10px #c08989, -5px -5px 10px #d5a8a8;
+}
 #jobs-tab #table-container table tbody tr:hover {
   background-color: aquamarine;
 }
